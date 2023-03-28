@@ -1,0 +1,51 @@
+.image,
+.description {
+    margin-bottom: 30px;
+}
+
+.description {
+    text-align: center;
+    
+    h2 {
+        font-size: 26px;
+        font-weight: 800;
+    }
+}
+
+.price {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    &__old {
+        font-size: 20px;
+        color: #cccccc;
+        text-decoration: line-through;
+    }
+
+    &__new {
+        font-size: 26px;
+        color: #00c829;
+    }
+}
+
+.thanks {
+    background-color: #f3f3f3;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h1 {
+        line-height: 48px;
+    }
+    .icon {
+        font-size: 46px;
+        color: #00c829;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+}

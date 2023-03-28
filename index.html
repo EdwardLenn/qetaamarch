@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qetaa</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="images/img-1.jpg" as="image" />
+</head>
+<body>
+
+    <div class="ainters">
+
+        <div class="go-to-form">
+            <div class="btn">أطـلب منتجـك الآن</div>
+        </div>
+
+        <!-- START COMPONENT IMAGE -->
+        <div class="image">
+            <img src="images/img1-1.jpg" alt="image" width="680" height="680">
+        </div>
+        <!-- END COMPONENT IMAGE -->
+
+        <!-- START DESCRIPTION -->
+        <div class="description">
+            <h2>حافظي على سلامة يديك ووفري وقتك وجهدك</h2>
+            <div class="price">
+                <div class="price__new">229 درهم</div>
+                <div class="price__old">389 درهم</div>
+            </div>
+        </div>
+        <!-- END DESCRIPTION -->
+
+        <!-- START COMPONENT IMAGE -->
+        <div class="image">
+            <img class="lazy" src="images/img1-2.jpg" alt="image" width="680" height="680">
+        </div>
+        <!-- END COMPONENT IMAGE -->
+
+        <!-- START COMPONENT IMAGE -->
+        <div class="image">
+            <img class="lazy" src="images/img1-3.jpg" alt="image" width="680" height="680">
+        </div>
+        <!-- END COMPONENT IMAGE -->
+
+        <!-- START COMPONENT IMAGE -->
+        <div class="image">
+            <img class="lazy" src="images/img1-4.jpg" alt="image" width="680" height="680">
+        </div>
+        <!-- END COMPONENT IMAGE -->
+
+        <!-- START COMPONENT IMAGE -->
+        <div class="image">
+            <img class="lazy" src="images/img1-5.jpg" alt="image" width="680" height="680">
+        </div>
+        <!-- END COMPONENT IMAGE -->
+
+
+        <!-- START DESCRIPTION -->
+        <div class="description">
+            <h2>الكمية محدودة جدا. اطلب الآن !</h2>
+            <div class="price">
+                <div class="price__new">229 درهم</div>
+                <div class="price__old">389 درهم</div>
+            </div>
+        </div>
+        <!-- END DESCRIPTION -->
+
+        <!-- START FORM -->
+        <form method="post" autocomplete="off" name="google-sheet" id="orderform">
+            <div class="c-input__holder">
+                <input type="text" name="name" id="name" autocomplete="off" placeholder="الإسم" required >
+            </div>
+            <div class="c-input__holder">
+                <input type="tel" name="phone" id="phone" autocomplete="off" placeholder="رقم الهاتف" required >
+            </div>
+            <div class="c-input__holder">
+                <input type="text" name="city" id="city" autocomplete="off" placeholder="المدينة" required >
+            </div>
+            <div class="c-input__holder">
+                <input type="text" name="address" id="address" autocomplete="off" placeholder="العنوان" required >
+            </div>
+            <div>
+                <input type="hidden" name="product" id="product" value="qeta-khodar"/>
+                <input type="hidden" name="source" id="source" value="strr"/>
+                </div>
+            <div class="c-input__holder">
+                <button type="submit" name="submit" class="btn" id="btntest">أطـلب منتجـك الآن</button>
+            </div>
+        </form>
+        <!-- END FORM -->
+
+    </div>
+    
+
+    <!-- SCRIPT -->
+    <script type='text/javascript' src='js/jquery.min.js'></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
